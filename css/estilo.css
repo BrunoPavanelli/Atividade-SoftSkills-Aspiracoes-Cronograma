@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-image: url(../img/4931029.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    border-bottom: 2px solid black;
+    background-color: #ff878783;
+}
+
+.box-cabecalho {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}  
+
+
+.box-cabecalho .img-cabecalho {
+    margin-top: 10px;
+}
+
+figcaption {
+    color: rgba(0, 0, 0, 0.13);
+}
+
+
+.box-cabecalho .titulo-cabecalho {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px 3px black;
+    background-color: #ff8787;
+    color: #ffe3e3;
+    font-size: 25px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* Corpo */
+.box-secoes .secoes .listas {
+    list-style: decimal;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px 3px black;
+    margin: 10px 0;
+}
+.box-secoes .secoes #cronograma{
+    list-style: none;
+}
+
+.box-secoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe3e3;
+}
+
+
+.box-secoes .secoes {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 1000px;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px 3px black;
+    background-color: #ff8787;
+    color: #ffe3e3;
+    font-size: 25px;
+    margin: 20px auto;
+    width: 55%;
+}
+
+.titulo-secundario {
+    margin: 0 0 0 20px;
+    border-bottom: 2px solid #ff8787;
+}
+
+
+
+/* Rodape */
+footer {
+    border-top: 2px solid black;
+    background-color: #ff8787;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    opacity: .5;
+}
